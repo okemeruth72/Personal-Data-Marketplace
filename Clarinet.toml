@@ -9,6 +9,11 @@ requirements = []
 path = 'contracts/data-registry.clar'
 clarity_version = 2
 epoch = 2.5
+
+[contracts.genomic-marketplace]
+path = 'contracts/genomic-marketplace.clar'
+clarity_version = 2
+epoch = 2.5
 [repl.analysis]
 passes = ['check_checker']
 
